@@ -62,7 +62,8 @@ class Calculator extends Component {
     this.setState({
       display: '0',
       operator: '',
-      temp: '0'
+      temp: '0',
+      resetDisplay: false
     })
   }
   render() {
